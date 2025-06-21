@@ -1,6 +1,6 @@
 /// obj_npc - Mouse Left Pressed
-// obj_npc - Mouse Left Pressed イベント
 if (!talking && point_distance(x, y, obj_player.x, obj_player.y) < 32) {
+	global.isInDialog = true;
     talking = true;
     dialogue_index = 0;
 

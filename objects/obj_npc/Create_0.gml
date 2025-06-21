@@ -5,6 +5,7 @@ dialogue = [
     "また会いましょうね〜"
 ];
 affection = 25;
-sprite_index = spr_npc_portrait01; // ← 立ち絵として表示したいスプライトをここで設定
+portrait_sprite = spr_npc_portrait01
+sprite_index = spr_npc1; // ← 立ち絵として表示したいスプライトをここで設定
 npc_name = "アリス";
 talking = false;
