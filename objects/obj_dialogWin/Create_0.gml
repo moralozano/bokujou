@@ -1,0 +1,9 @@
+choices        = [];
+text_lines     = [];
+page           = 0;
+face_sprite    = spr_face_default;
+on_choice_fn   = noone;
+initialized    = false;
+choice_spawned = false;
+closing_ready  = false;
+speaker        = obj_player;

@@ -1,0 +1,1 @@
+global.AFFECTION_DAILY_CAP = 30;

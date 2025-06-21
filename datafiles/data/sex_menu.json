@@ -1,0 +1,11 @@
+{
+  "sex_menu": {
+    "buttons": [
+      { "txt":"愛撫",      "script":"pet"        },
+      { "txt":"体表射精",  "script":"ejac_body" },
+      { "txt":"口内射精",  "script":"ejac_mouth"},
+      { "txt":"膣内射精",  "script":"ejac_vag"  },
+      { "txt":"やめる",    "script":"close"     }
+    ]
+  }
+}

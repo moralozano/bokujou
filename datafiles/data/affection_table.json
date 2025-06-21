@@ -1,0 +1,26 @@
+{
+  "ejac_body": {
+    "stamina": 20,
+    "love": 12,
+    "mult": 1.0,
+    "preg": false
+  },
+  "ejac_mouth": {
+    "stamina": 15,
+    "love": 10,
+    "mult": 0.8,
+    "preg": false
+  },
+  "ejac_vag": {
+    "stamina": 25,
+    "love": 15,
+    "mult": 1.2,
+    "preg": true
+  },
+  "pet": {
+    "stamina": 0,
+    "love": 5,
+    "mult": 0.0,
+    "preg": false
+  }
+}

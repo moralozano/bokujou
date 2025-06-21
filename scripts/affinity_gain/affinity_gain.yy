@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"affinity_gain",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"affinity_gain",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

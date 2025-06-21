@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_useSlotItem",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_useSlotItem",
+  "parent":{
+    "name":"commonsctipys",
+    "path":"folders/Scripts/commonsctipys.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

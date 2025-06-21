@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_useMilk",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_useMilk",
+  "parent":{
+    "name":"Item",
+    "path":"folders/Scripts/Item.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
