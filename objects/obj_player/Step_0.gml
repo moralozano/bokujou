@@ -11,3 +11,4 @@ var my = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 if (mx!=0 && my!=0){ mx*=0.7071; my*=0.7071; }
 x += mx*mv;
 y += my*mv;
+

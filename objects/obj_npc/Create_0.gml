@@ -1,18 +1,10 @@
-/// obj_livestock – Create（全文）
-affection          = 0;   // ★追加：愛情度
-affection_gain_day = 0;   // 日次上限を管理している場合
-is_succubus        = true;
-talking_to_player  = false;
-dialog_lines = [
-    "こんにちは、冒険者さん。",
-    "今日は調子はいかが？",
-    "また後で話しましょう。"
+// obj_npc_alice - Create イベント
+dialogue = [
+    "こんにちは、アリスよ！",
+    "牧場は順調？",
+    "また会いましょうね〜"
 ];
-// obj_npc  – Create  イベント
-portrait_spr = spr_npc_portrait01;   // 立ち絵スプライト
-dialog_lines = [
-    "こんにちは！",
-    "今日はいい天気ですね。"
-];
-
-
+affection = 25;
+sprite_index = spr_npc_portrait01; // ← 立ち絵として表示したいスプライトをここで設定
+npc_name = "アリス";
+talking = false;

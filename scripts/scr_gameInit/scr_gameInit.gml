@@ -27,7 +27,7 @@ function scr_gameInit() {
 
     global.isTalking     = false;
     global.isInDialog    = false;
-    global.dialog_lines  = [];
+    global.dialogue  = [];
     global.dialog_index  = 0;
     global.dialog_target = noone;
 }

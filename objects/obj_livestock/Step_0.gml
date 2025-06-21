@@ -9,12 +9,12 @@ if (!talking_to_player && near && mouse_check_button_pressed(mb_left))
 
     global.isInDialog    = true;
     global.dialog_target = id;
-    global.dialog_lines  = ["よしよし…可愛いな"];
+    global.dialogue		 = ["よしよし…可愛いな"];
     global.dialog_index  = 0;
 
     // ★ 会話ウィンドウ生成
     var d = instance_create_layer(x, y + 48, "Instances", obj_dialogue);
-    d.current_dialogue = global.dialog_lines[global.dialog_index];
+    d.current_dialogue = global.dialogue[global.dialog_index];
     d.show_dialog = true;
 
     talking_to_player = true;

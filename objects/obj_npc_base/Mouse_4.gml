@@ -1,5 +1,4 @@
-/// obj_npc - Mouse Left Pressed
-// obj_npc - Mouse Left Pressed イベント
+// obj_npc_base - Mouse Left Pressed
 if (!talking && point_distance(x, y, obj_player.x, obj_player.y) < 32) {
     talking = true;
     dialogue_index = 0;
@@ -8,6 +7,4 @@ if (!talking && point_distance(x, y, obj_player.x, obj_player.y) < 32) {
     obj_dialogueManager.dialogue_owner = id;
 
     global.isInDialog = true;
-
-    show_debug_message("会話開始: NPC ID " + string(id));
 }

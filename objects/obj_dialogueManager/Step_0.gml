@@ -1,19 +1,19 @@
-/// obj_dialogueManager – Step   ★全文
-if (global.isInDialog && mouse_check_button_pressed(mb_left))   // :contentReference[oaicite:4]{index=4}
-{
-    global.dialog_index += 1;
+// 会話ウィンドウが表示中で、スペースキーまたは左クリックが押されたら
+if (visible && (keyboard_check_pressed(vk_space) || mouse_check_button_pressed(mb_left))) {
 
-    // 行を送り切ったら会話終了
-    if (global.dialog_index >= array_length(global.dialog_lines))
-    {
-        global.isInDialog = false;
+    // 会話中のNPCが設定されているか確認
+    if (dialogue_owner != noone) {
 
-        // サキュバス会話ならロック解除
-        if (instance_exists(global.dialog_target))
-        {
-            with (global.dialog_target)
-                if (variable_instance_exists(id,"talking_to_player"))   // :contentReference[oaicite:5]{index=5}
-                    talking_to_player = false;
+        // 次のセリフへ進む
+        dialogue_owner.dialogue_index++;
+
+        // セリフがすべて終わったらウィンドウを閉じる
+        if (dialogue_owner.dialogue_index >= array_length(dialogue_owner.dialogue)) {
+            visible = false;
+            dialogue_owner.talking = false;
+            dialogue_owner = noone;
+			
+			global.isInDialog = false; // 🔸ここでリセット！
         }
     }
 }
