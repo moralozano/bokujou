@@ -13,3 +13,5 @@ max_stamina = 100;
 stamina     = max_stamina;
 collapsed   = false;
 move_spd    = 2;
+
+canMove = true;

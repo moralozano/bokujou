@@ -6,6 +6,7 @@ if (show_dialog) {
         show_debug_message("dialogue closed");
         show_dialog = false;
 		global.isInDialog = false;
+		global.isTalking  = false;
         instance_destroy();
     }
 }

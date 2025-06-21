@@ -7,4 +7,5 @@ if (!talking && point_distance(x, y, obj_player.x, obj_player.y) < 32) {
     obj_dialogueManager.dialogue_owner = id;
 
     global.isInDialog = true;
+	global.isTalking  = true;
 }

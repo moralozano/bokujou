@@ -25,8 +25,6 @@ function scr_gameInit() {
     global.itemDB[2]   = { name:"ミルク", spr:spr_itm_milk, fn:scr_useMilk_fn };
     global.itemDB[100] = { name:"カラダ射精", spr:spr_act_Ejac_Body, fn:scr_actEjacBody_fn };
 
-    global.isTalking     = false;
-    global.isInDialog    = false;
     global.dialogue  = [];
     global.dialog_index  = 0;
     global.dialog_target = noone;

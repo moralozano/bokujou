@@ -14,6 +14,7 @@ if (visible && (keyboard_check_pressed(vk_space) || mouse_check_button_pressed(m
             dialogue_owner = noone;
 			
 			global.isInDialog = false; // 🔸ここでリセット！
+			global.isTalking  = false;
         }
     }
 }

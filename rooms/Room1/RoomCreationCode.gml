@@ -12,3 +12,4 @@ instance_create_layer(0, 0, "GUI", obj_hotbar);
 instance_create_layer(0, 0, "Control", obj_dialogueManager);
 
 instance_create_layer(0, 0, "Instances", obj_dialogueManager);
+global.isTalking = false;

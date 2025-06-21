@@ -57,6 +57,7 @@
     {"id":{"name":"obj_dialogWin","path":"objects/obj_dialogWin/obj_dialogWin.yy",},},
     {"id":{"name":"obj_gameController","path":"objects/obj_gameController/obj_gameController.yy",},},
     {"id":{"name":"obj_hotbar","path":"objects/obj_hotbar/obj_hotbar.yy",},},
+    {"id":{"name":"obj_init","path":"objects/obj_init/obj_init.yy",},},
     {"id":{"name":"obj_livestock","path":"objects/obj_livestock/obj_livestock.yy",},},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
     {"id":{"name":"obj_menuBtn","path":"objects/obj_menuBtn/obj_menuBtn.yy",},},
@@ -66,10 +67,12 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_speechBubble","path":"objects/obj_speechBubble/obj_speechBubble.yy",},},
     {"id":{"name":"obj_useHerb","path":"objects/obj_useHerb/obj_useHerb.yy",},},
+    {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"affinity_gain","path":"scripts/affinity_gain/affinity_gain.yy",},},
     {"id":{"name":"constants","path":"scripts/constants/constants.yy",},},
     {"id":{"name":"dialog_init","path":"scripts/dialog_init/dialog_init.yy",},},
+    {"id":{"name":"init_globals","path":"scripts/init_globals/init_globals.yy",},},
     {"id":{"name":"scr_actEjacBody","path":"scripts/scr_actEjacBody/scr_actEjacBody.yy",},},
     {"id":{"name":"scr_addAffection","path":"scripts/scr_addAffection/scr_addAffection.yy",},},
     {"id":{"name":"scr_dialog_show","path":"scripts/scr_dialog_show/scr_dialog_show.yy",},},
@@ -99,6 +102,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
